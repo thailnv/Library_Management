@@ -20,7 +20,6 @@ namespace Library_Management
     /// </summary>
     public partial class MainWindow : Window
     {
-
         GUI.DashBoard dashBoard = new GUI.DashBoard();
         GUI.BookManagement bookManagement = new GUI.BookManagement();
         GUI.AccountManagement accountManagement = new GUI.AccountManagement();

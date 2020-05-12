@@ -11,12 +11,13 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition Height="130"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="152.333"/>
+            <RowDefinition Height="139"/>
         </Grid.RowDefinitions>
-        <Grid Grid.Row="0" Margin="5">
+        <Grid Grid.Row="0" Margin="5,5,5,5">
             <TextBlock Text="DashBoard" Foreground="DimGray" FontSize="20" FontWeight="Bold" FontFamily="Cooper" Padding="8"/>
         </Grid>
-        <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Grid Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="29,10.667">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="auto"/>
@@ -94,7 +95,7 @@
                 </Grid>
             </Grid>
         </Grid>
-        <Grid Grid.Row="2">
+        <Grid Grid.Row="2" Margin="0,0.333,0,0" Grid.RowSpan="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="575"/>
                 <ColumnDefinition Width="205"/>
