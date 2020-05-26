@@ -23,9 +23,18 @@ namespace Library_Management
         GUI.DashBoard dashBoard = new GUI.DashBoard();
         GUI.BookManagement bookManagement = new GUI.BookManagement();
         GUI.AccountManagement accountManagement = new GUI.AccountManagement();
+        GUI.Login login = new GUI.Login();
         public MainWindow()
         {
             InitializeComponent();
+            int LoginResult = 0;
+            login.ShowDialog();
+            while(LoginResult==0)
+            {
+                LoginResult = login.Login_Result;
+                if (LoginResult == -1)
+                    Application.Current.Shutdown();
+            }
             MainGrid.Children.Clear();
             MainGrid.Children.Add(dashBoard);
         }

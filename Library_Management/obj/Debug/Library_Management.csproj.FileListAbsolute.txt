@@ -28,3 +28,5 @@ C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\De
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\AccountManagement.baml
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Book_ListViewItem.g.cs
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Book_ListViewItem.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Login.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Login.baml

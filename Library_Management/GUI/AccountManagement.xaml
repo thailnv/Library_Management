@@ -34,12 +34,41 @@
                 <Grid Grid.Row="1" Height="420" Margin="5,5,0,0" >
                     <Grid.RowDefinitions>
                         <RowDefinition Height="*"/>
-                        <RowDefinition Height="8*"/>
+                        <RowDefinition Height="18*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0"/>
                     <Grid Grid.Row="1" Background="WhiteSmoke">
-                        
+                        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,328" Text="Information" FontSize="20" FontWeight="Bold" Foreground="DimGray" Height="40" Width="120" TextAlignment="Center"/>
+                        <Image Source="/Resources/Natsu.png" Width="150" Height="150" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,60"/>
+                        <StackPanel Orientation="Horizontal" Height="40" Width="220" Margin="200,60,87,278">
+                            <materialDesign:PackIcon Kind="AccountOutline" Width="22" Foreground="DimGray" Height="22" VerticalAlignment="Bottom"/>
+                            <TextBox IsEnabled="False" Margin="5,0,0,0" materialDesign:HintAssist.Hint="Name" Foreground="Black" Text="Natsu Dragneel" FontWeight="Bold" Width="190" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="40" Width="220" Margin="200,110,87,228">
+                            <materialDesign:PackIcon Kind="PhoneOutline" Width="22" Foreground="DimGray" Height="22" VerticalAlignment="Bottom"/>
+                            <TextBox IsEnabled="False" Padding="0" Margin="5,0,0,0" materialDesign:HintAssist.Hint="Phone number" Foreground="Black" Text="0357857086" FontWeight="Bold" Width="190" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="40" Width="220" Margin="200,210,87,128">
+                            <materialDesign:PackIcon Kind="HomeOutline" Foreground="DimGray" Width="22" Height="22" VerticalAlignment="Bottom"/>
+                            <TextBox IsEnabled="False" Margin="5,0,0,0" materialDesign:HintAssist.Hint="Address" Foreground="Black" Text="Fairytail" FontWeight="Bold" Width="190" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="40" Width="150" Margin="20,210,335,128">
+                            <materialDesign:PackIcon Kind="AccountBadgeOutline" Foreground="DimGray" Width="22" Height="22" VerticalAlignment="Bottom"/>
+                            <TextBox IsEnabled="False" Margin="5,0,0,0" materialDesign:HintAssist.Hint="ID" Foreground="Black" Text="001" FontWeight="Bold" Width="120" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="40" Width="220" Margin="200,160,87,178">
+                            <materialDesign:PackIcon Kind="EmailOutline" Width="22" Foreground="DimGray" Height="22" VerticalAlignment="Bottom"/>
+                            <TextBox IsEnabled="False" Margin="5,0,0,0" materialDesign:HintAssist.Hint="Email" Foreground="Black" Text="18521381@gm.uit.edu.vn" FontWeight="Bold" Width="190" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="40" Width="220" Margin="200,260,87,78">
+                            <materialDesign:PackIcon Kind="CalendarOutline" Width="22" Foreground="DimGray" Height="22" VerticalAlignment="Bottom"/>
+                            <TextBox  IsEnabled="False" Margin="5,0,0,0" materialDesign:HintAssist.Hint="Day Expired" Foreground="Black" Text="26/03/2021" FontWeight="Bold" Width="190" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="40" Width="150" Margin="20,260,335,78">
+                            <materialDesign:PackIcon Kind="AccountBadgeOutline" Width="22" Foreground="DimGray" Height="22" VerticalAlignment="Bottom"/>
+                            <TextBox  IsEnabled="False" Margin="5,0,0,0" materialDesign:HintAssist.Hint="Account Type" Foreground="Black" Text="VIP" FontWeight="Bold" Width="120" Height="40" Style="{StaticResource MaterialDesignFloatingHintTextBox}" />
+                        </StackPanel>
                     </Grid>
                     <Grid Grid.Row="2"/>
                 </Grid>
@@ -176,6 +205,9 @@
                     </Button>
                     <Button Margin="0,0,0,0" Padding="0" Width="20" Height="80" Foreground="DimGray" Background="#edade8" BorderBrush="{x:Null}">
                         <materialDesign:PackIcon Kind="AccountMinusOutline" />
+                    </Button>
+                    <Button Margin="0,0,0,0" Padding="0" Width="20" Height="80" Foreground="DimGray" Background="#8fe0f2" BorderBrush="{x:Null}">
+                        <materialDesign:PackIcon Kind="AccountTickOutline" />
                     </Button>
                 </StackPanel>
             </Grid>
