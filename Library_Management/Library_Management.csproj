@@ -63,6 +63,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="GUI\CallCard_ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GUI\AccountManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -72,6 +76,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="GUI\Book_ListViewItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GUI\CallCard_ListViewItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GUI\CallCard_Mangement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -87,6 +99,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="GUI\CallCard_ListView.xaml.cs">
+      <DependentUpon>CallCard_ListView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GUI\AccountManagement.xaml.cs">
       <DependentUpon>AccountManagement.xaml</DependentUpon>
     </Compile>
@@ -99,6 +114,12 @@
     </Compile>
     <Compile Include="GUI\Book_ListViewItem.xaml.cs">
       <DependentUpon>Book_ListViewItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CallCard_ListViewItem.xaml.cs">
+      <DependentUpon>CallCard_ListViewItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CallCard_Mangement.xaml.cs">
+      <DependentUpon>CallCard_Mangement.xaml</DependentUpon>
     </Compile>
     <Compile Include="GUI\DashBoard.xaml.cs">
       <DependentUpon>DashBoard.xaml</DependentUpon>

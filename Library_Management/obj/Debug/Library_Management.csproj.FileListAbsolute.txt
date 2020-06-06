@@ -30,3 +30,9 @@ C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\De
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Book_ListViewItem.baml
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Login.g.cs
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Login.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_Mangement.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_Mangement.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListView.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListView.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListViewItem.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListViewItem.baml

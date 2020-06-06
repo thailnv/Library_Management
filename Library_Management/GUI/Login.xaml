@@ -13,10 +13,10 @@
         mc:Ignorable="d"
         Title="Login" Height="350" Width="570" WindowStyle="None" WindowStartupLocation="CenterScreen" Background="{x:Null}" AllowsTransparency="True" MouseLeftButtonDown="Window_MouseLeftButtonDown">
     <Grid>
-        <Grid Width="280" Height="350" Background="{x:Null}" VerticalAlignment="Center" HorizontalAlignment="Right">
+        <Grid Width="560" Height="350" Background="{x:Null}" VerticalAlignment="Center" HorizontalAlignment="Right">
             <Border CornerRadius="8,8,8,8">
                 <Border.Background>
-                    <ImageBrush Stretch="Fill" ImageSource="/Resources/login2.jpg"/>
+                    <ImageBrush Stretch="Fill" ImageSource="/Resources/login.jpg"/>
                 </Border.Background>
             </Border>
         </Grid>
@@ -24,11 +24,11 @@
 
             <Rectangle Width="280" Height="350" Fill="{x:Null}" VerticalAlignment="Bottom" Margin="0,0" RadiusY="10" RadiusX="10">
             </Rectangle>
-            <TextBlock Text="Log in" FontWeight="Bold" Foreground="Azure" FontSize="30" TextAlignment="Center" Width="100" Height="60" Margin="0,40,0,250"/>
+            <TextBlock Text="Log in" FontWeight="Bold" Foreground="Azure" FontSize="30" TextAlignment="Center" Width="100" Height="60" Margin="0,40,0,250" />
             <Rectangle Width="270" Height="33" Fill="#e4ebed" Margin="0,115,0,200" RadiusY="20" RadiusX="20"/>
             <Rectangle Width="270" Height="33" Fill="#e4ebed" Margin="0,180,0,135" RadiusY="20" RadiusX="20"/>
-            <TextBox Foreground="Gray" BorderThickness="0" Height="35" Width="250" x:Name="user" materialDesign:TextFieldAssist.UnderlineBrush="{x:Null}" materialDesign:HintAssist.Hint="User" Margin="20,122,10,193" FontFamily="Cooper"/>
-            <PasswordBox Foreground="Gray" BorderThickness="0"  Height="35" Width="250" x:Name="pass" materialDesign:TextFieldAssist.UnderlineBrush="{x:Null}" materialDesign:HintAssist.Hint="Password" Margin="20,175,10,140" FontFamily="cooper"/>
+            <TextBox Foreground="Gray" BorderThickness="0" Height="35" Width="250" x:Name="user" materialDesign:TextFieldAssist.UnderlineBrush="{x:Null}" materialDesign:HintAssist.Hint="User" Margin="20,122,10,193" FontFamily="Arial" FontWeight="Bold"/>
+            <PasswordBox Foreground="Gray" BorderThickness="0"  Height="35" Width="250" x:Name="pass" materialDesign:TextFieldAssist.UnderlineBrush="{x:Null}" materialDesign:HintAssist.Hint="Password" Margin="20,175,10,140" FontFamily="Arial" FontWeight="Bold"/>
             <Rectangle Width="110" Height="30" Stroke="Azure" StrokeThickness="1" Fill="{x:Null}" Margin="15,65" RadiusY="20" RadiusX="20" VerticalAlignment="Bottom" HorizontalAlignment="Right"/>
             <Rectangle Width="110" Height="30" Stroke="Azure" StrokeThickness="1" Fill="{x:Null}" Margin="15,65" RadiusY="20" RadiusX="20" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
             <Button x:Name="LoginButton" BorderBrush="{x:Null}" Background="{x:Null}" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="110" Height="30" Margin="15,65" Content="Log in"  FontSize="15" Click="LoginButton_Click"/>

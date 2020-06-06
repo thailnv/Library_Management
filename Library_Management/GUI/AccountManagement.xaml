@@ -13,7 +13,7 @@
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <StackPanel  Grid.Row="0" Orientation="Horizontal" >
-            <TextBlock Text="Account Management" FontWeight="Bold" FontFamily="Cooper" FontSize="20" Foreground="DimGray" Margin="15,10,10,10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Text=" Account Management" FontWeight="Bold" FontFamily="Arial" FontSize="20" Foreground="DimGray" Margin="15,10,10,10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <TextBox FontWeight="Bold" Foreground="DimGray" FontSize="13"
              materialDesign:HintAssist.Hint="Name,ID Search" VerticalAlignment="Center" Width="140" Margin="340,0,5,0" />
             <Button Background="WhiteSmoke" Foreground="DimGray" BorderBrush="{x:Null}" Width="55" Margin="5,0,5,0" Height="25" Padding="0">

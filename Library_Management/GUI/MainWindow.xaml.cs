@@ -24,6 +24,7 @@ namespace Library_Management
         GUI.BookManagement bookManagement = new GUI.BookManagement();
         GUI.AccountManagement accountManagement = new GUI.AccountManagement();
         GUI.Login login = new GUI.Login();
+        GUI.CallCard_Mangement callcardmanagement = new GUI.CallCard_Mangement();
         public MainWindow()
         {
             InitializeComponent();
@@ -61,6 +62,9 @@ namespace Library_Management
                     break;
                 case 1:
                     MainGrid.Children.Add(bookManagement);
+                    break;
+                case 2:
+                    MainGrid.Children.Add(callcardmanagement);
                     break;
                 case 3:
                     MainGrid.Children.Add(accountManagement);
