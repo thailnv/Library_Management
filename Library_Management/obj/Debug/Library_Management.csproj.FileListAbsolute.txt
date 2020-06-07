@@ -36,3 +36,5 @@ C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\De
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListView.baml
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListViewItem.g.cs
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListViewItem.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Account_frmAdd.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Account_frmAdd.baml
