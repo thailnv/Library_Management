@@ -67,10 +67,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="GUI\CallCard_ListView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="GUI\AccountManagement.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -79,7 +75,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="GUI\Book_Add.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GUI\Book_ListViewItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GUI\CallCard_frmBorrow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GUI\CallCard_ListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,6 +103,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="GUI\frmBorrow_Item.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GUI\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -106,9 +118,6 @@
     <Compile Include="GUI\Account_frmAdd.xaml.cs">
       <DependentUpon>Account_frmAdd.xaml</DependentUpon>
     </Compile>
-    <Compile Include="GUI\CallCard_ListView.xaml.cs">
-      <DependentUpon>CallCard_ListView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="GUI\AccountManagement.xaml.cs">
       <DependentUpon>AccountManagement.xaml</DependentUpon>
     </Compile>
@@ -119,8 +128,17 @@
     <Compile Include="GUI\BookManagement.xaml.cs">
       <DependentUpon>BookManagement.xaml</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Book_Add.xaml.cs">
+      <DependentUpon>Book_Add.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GUI\Book_ListViewItem.xaml.cs">
       <DependentUpon>Book_ListViewItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CallCard_frmBorrow.xaml.cs">
+      <DependentUpon>CallCard_frmBorrow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CallCard_ListView.xaml.cs">
+      <DependentUpon>CallCard_ListView.xaml</DependentUpon>
     </Compile>
     <Compile Include="GUI\CallCard_ListViewItem.xaml.cs">
       <DependentUpon>CallCard_ListViewItem.xaml</DependentUpon>
@@ -130,6 +148,9 @@
     </Compile>
     <Compile Include="GUI\DashBoard.xaml.cs">
       <DependentUpon>DashBoard.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\frmBorrow_Item.xaml.cs">
+      <DependentUpon>frmBorrow_Item.xaml</DependentUpon>
     </Compile>
     <Compile Include="GUI\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>

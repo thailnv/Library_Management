@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Library_Management.GUI
 {
     /// <summary>
-    /// Interaction logic for CallCard_ListView.xaml
+    /// Interaction logic for frmBorrow_Item.xaml
     /// </summary>
-    public partial class CallCard_ListView : UserControl
+    public partial class frmBorrow_Item : UserControl
     {
-        public CallCard_ListView()
+        public frmBorrow_Item()
         {
             InitializeComponent();
         }

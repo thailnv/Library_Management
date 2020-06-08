@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\GUI\App.xaml
-10-136376386
+13-1529387686
 
-14-1211640024
+17128807118
 15-1733676730
-GUI\Account_frmAdd.xaml;GUI\CallCard_ListView.xaml;GUI\AccountManagement.xaml;GUI\BookManagement.xaml;GUI\Book_ListViewItem.xaml;GUI\CallCard_ListViewItem.xaml;GUI\CallCard_Mangement.xaml;GUI\DashBoard.xaml;GUI\Login.xaml;GUI\MainWindow.xaml;
+GUI\Account_frmAdd.xaml;GUI\AccountManagement.xaml;GUI\BookManagement.xaml;GUI\Book_Add.xaml;GUI\Book_ListViewItem.xaml;GUI\CallCard_frmBorrow.xaml;GUI\CallCard_ListView.xaml;GUI\CallCard_ListViewItem.xaml;GUI\CallCard_Mangement.xaml;GUI\DashBoard.xaml;GUI\frmBorrow_Item.xaml;GUI\Login.xaml;GUI\MainWindow.xaml;
 
 False
 

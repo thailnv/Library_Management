@@ -38,3 +38,9 @@ C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\De
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_ListViewItem.baml
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Account_frmAdd.g.cs
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Account_frmAdd.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_frmBorrow.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\CallCard_frmBorrow.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\frmBorrow_Item.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\frmBorrow_Item.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Book_Add.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Book_Add.baml
