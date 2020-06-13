@@ -44,3 +44,5 @@ C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\De
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\frmBorrow_Item.baml
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Book_Add.g.cs
 C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\Book_Add.baml
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\UserControl1.g.cs
+C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\GUI\UserControl1.baml

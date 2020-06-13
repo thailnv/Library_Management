@@ -20,6 +20,7 @@ namespace Library_Management
     /// </summary>
     public partial class MainWindow : Window
     {
+        GUI.UserControl1 us1 = new GUI.UserControl1();
         GUI.DashBoard dashBoard = new GUI.DashBoard();
         GUI.BookManagement bookManagement = new GUI.BookManagement();
         GUI.AccountManagement accountManagement = new GUI.AccountManagement();
@@ -68,6 +69,9 @@ namespace Library_Management
                     break;
                 case 3:
                     MainGrid.Children.Add(accountManagement);
+                    break;
+                case 4:
+                    MainGrid.Children.Add(us1);
                     break;
             }
            

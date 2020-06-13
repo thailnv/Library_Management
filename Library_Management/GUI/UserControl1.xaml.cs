@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Library_Management.GUI
 {
     /// <summary>
-    /// Interaction logic for Book_Add.xaml
+    /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class Book_Add : Grid
+    public partial class UserControl1 : UserControl
     {
-        public Book_Add()
+        public UserControl1()
         {
             InitializeComponent();
         }
