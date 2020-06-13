@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\obj\Debug\
+C:\Users\LENOVO T540P\Downloads\Library_Management-master-master\Library_Management-master1\Library_Management\obj\Debug\
 Library_Management
 none
 false
 DEBUG;TRACE
-C:\Users\Thai Vinh\Documents\GitHub\Library_Management\Library_Management\GUI\App.xaml
-14-2042887783
+C:\Users\LENOVO T540P\Downloads\Library_Management-master-master\Library_Management-master1\Library_Management\GUI\App.xaml
+71002563788
 
-18-1409518588
-15-1733676730
-GUI\Account_frmAdd.xaml;GUI\AccountManagement.xaml;GUI\BookManagement.xaml;GUI\Book_Add.xaml;GUI\Book_ListViewItem.xaml;GUI\CallCard_frmBorrow.xaml;GUI\CallCard_ListView.xaml;GUI\CallCard_ListViewItem.xaml;GUI\CallCard_Mangement.xaml;GUI\DashBoard.xaml;GUI\frmBorrow_Item.xaml;GUI\Login.xaml;GUI\MainWindow.xaml;GUI\UserControl1.xaml;
+201983368517
+16278178561
+GUI\Account_frmAdd.xaml;GUI\AccountManagement.xaml;GUI\BookManagement.xaml;GUI\Book_ListViewItem.xaml;GUI\DashBoard.xaml;GUI\Login.xaml;GUI\MainWindow.xaml;
 
 False
 

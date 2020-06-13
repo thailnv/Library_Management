@@ -20,22 +20,24 @@ namespace Library_Management
     /// </summary>
     public partial class MainWindow : Window
     {
-        GUI.UserControl1 us1 = new GUI.UserControl1();
         GUI.DashBoard dashBoard = new GUI.DashBoard();
         GUI.BookManagement bookManagement = new GUI.BookManagement();
+        
         GUI.AccountManagement accountManagement = new GUI.AccountManagement();
         GUI.Login login = new GUI.Login();
-        GUI.CallCard_Mangement callcardmanagement = new GUI.CallCard_Mangement();
         public MainWindow()
         {
             InitializeComponent();
             int LoginResult = 0;
             login.ShowDialog();
-            while(LoginResult==0)
+            while (LoginResult != 1)
             {
                 LoginResult = login.Login_Result;
                 if (LoginResult == -1)
+                {
                     Application.Current.Shutdown();
+                }
+                 login.Logincheck();
             }
             MainGrid.Children.Clear();
             MainGrid.Children.Add(dashBoard);
@@ -64,14 +66,8 @@ namespace Library_Management
                 case 1:
                     MainGrid.Children.Add(bookManagement);
                     break;
-                case 2:
-                    MainGrid.Children.Add(callcardmanagement);
-                    break;
                 case 3:
                     MainGrid.Children.Add(accountManagement);
-                    break;
-                case 4:
-                    MainGrid.Children.Add(us1);
                     break;
             }
            

@@ -14,9 +14,9 @@
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <StackPanel  Grid.Row="0" Orientation="Horizontal" >
-            <TextBlock Text="Book Management" FontWeight="Bold" FontSize="20" Foreground="DimGray" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Text="Book Management" FontWeight="Bold" FontFamily="Cooper" FontSize="20" Foreground="DimGray" Margin="10" HorizontalAlignment="Left" VerticalAlignment="Center"/>
             <TextBox FontWeight="Bold" Foreground="DimGray" FontSize="13"
-             materialDesign:HintAssist.Hint="Name Search" VerticalAlignment="Center" Width="150" Margin="200,0,5,0" />
+             materialDesign:HintAssist.Hint="Name Search" VerticalAlignment="Center" Width="150" Margin="230,0,5,0" />
             <ComboBox FontWeight="Bold" FontSize="13" Foreground="DimGray" HorizontalAlignment="Right" Margin="5,8,5,0" Padding="0" Width="130"
                 materialDesign:HintAssist.Hint="Category"
                 IsEditable="True">
@@ -41,9 +41,6 @@
             </ComboBox>
             <Button Background="WhiteSmoke" Foreground="DimGray" BorderBrush="{x:Null}" Width="55" Margin="5,0,5,0" Height="25" Padding="0">
                 <materialDesign:PackIcon Kind="Search" Width="25" Height="25"/>
-            </Button>
-            <Button Background="WhiteSmoke" BorderBrush="{x:Null}" Height="25" Width="30" Foreground="DimGray" Padding="0">
-                <materialDesign:PackIcon Kind="AddCircleOutline" Width="20" Height="20"/>
             </Button>
         </StackPanel>
         <StackPanel Grid.Row="1" Orientation="Horizontal"  Margin="0,0,0,0" Background="WhiteSmoke">

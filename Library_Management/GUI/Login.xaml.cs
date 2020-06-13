@@ -23,6 +23,7 @@ namespace Library_Management.GUI
         public Login()
         {
             InitializeComponent();
+
         }
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
@@ -30,11 +31,25 @@ namespace Library_Management.GUI
             Login_Result = -1;
             this.Close();
         }
+        public void Logincheck()
+        {
 
+            if (Login_Result == 2)
+                MessageBox.Show("Dang nhap thanh cong");
+           
+          
+        }
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            Login_Result = 1;
-            this.Close();
+            DAL.DAL_LOGIN logincheck = new DAL.DAL_LOGIN();
+            if (logincheck.CheckLogin(username.Text, pass.Password))
+            {
+                Login_Result = 1;
+                this.Close();
+            }
+        
+             else
+                MessageBox.Show("Incorrect password or username!");
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

@@ -18,7 +18,7 @@
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0" Orientation="Horizontal" HorizontalAlignment="Left">
-                <Button Margin="20,0,0,0" Width="150" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Content="My library" FontSize="15" />
+                <Button Margin="20,0,0,0" Width="150" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Content="My library" FontSize="13" FontFamily="Cooper"/>
             </StackPanel>
             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="640,0,0,0">
                 <Button Margin="0,0,0,0" Width="85" Padding="0" Height="25" Background="{x:Null}" BorderBrush="{x:Null}" Content="User: Admin" FontSize="12"/>
