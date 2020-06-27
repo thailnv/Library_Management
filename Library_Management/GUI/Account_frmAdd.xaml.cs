@@ -37,22 +37,34 @@ namespace Library_Management.GUI
             openFileDialog.ShowDialog();
             string a = openFileDialog.FileName;
             IMG.Source = new BitmapImage(new Uri(@a, UriKind.RelativeOrAbsolute));
-            Btn_Search.Visibility = Visibility.Hidden;        
+            Btn_Search.Visibility = Visibility.Hidden;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            dto = new DTO_ThanhVien(id.Text, Name.Text, address.Text, phone.Text, cmnd.Text, System.DateTime.Now, Nghethan.SelectedDate.Value, NgaySinh.SelectedDate.Value, LTV.Text, mail.Text, IMG.Source.ToString(), "Nam");
-            if (bus.themThanhVien(dto))
+            try
             {
-                MessageBox.Show("Them thanh cong");
-                this.Hide();
+                dto = new DTO_ThanhVien(id.Text, Name.Text, address.Text, phone.Text, cmnd.Text, System.DateTime.Now, Nghethan.SelectedDate.Value, NgaySinh.SelectedDate.Value, LTV.Text, mail.Text, IMG.Source.ToString(), "Nam");
+                if (bus.themThanhVien(dto))
+                {
+                    MessageBox.Show("Them thanh cong");
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("them that bai");
+                }
+
             }
-            else
+            catch (Exception a)
             {
-                MessageBox.Show("them that bai");
+                MessageBox.Show("Vui long dien day du thong tin");
             }
-        
+        }
+
+        private void Button_TurnBack(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
         }
     }
 }

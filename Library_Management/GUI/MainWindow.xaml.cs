@@ -37,7 +37,6 @@ namespace Library_Management
                 {
                     Application.Current.Shutdown();
                 }
-                 login.Logincheck();
             }
             MainGrid.Children.Clear();
             MainGrid.Children.Add(dashBoard);
